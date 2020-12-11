@@ -16,7 +16,9 @@
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-           <%= link_to "Create new entry", new_entry_path, class: "button is-success" %>
+           <%= link_to new_entry_path, class: "button is-success" do %>
+           <span>"Create new entry"</span>
+           <% end %>
           </div>
         </div>
       </div>
