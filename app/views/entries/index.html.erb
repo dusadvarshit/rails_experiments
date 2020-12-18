@@ -4,7 +4,7 @@
   Foodlog &ndash; <%= DateTime.now.to_s(:nice_date) %>
 <% end %>
 
-<div class="columns mt-6 is-centered"></div>    
+<div class="columns mt-6 is-centered">
   <% @entries.each do |entry| %>
     <div class="column is-one-quarter">
       <div class="card">
@@ -28,3 +28,4 @@
   </div>
   </div> 
   <% end %>
+</div>
