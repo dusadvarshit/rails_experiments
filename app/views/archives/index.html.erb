@@ -13,22 +13,22 @@
 
 				<div class="level-item has-text-centered">
 					<div>
-						<p class="heading"></p>
-						<p class="title"></p>
+						<p class="heading">Proteins</p>
+						<p class="title"><%= entries.pluck(:proteins).sum %</p>
 					</div>
 				</div>
 
 				<div class="level-item has-text-centered">
 					<div>
 						<p class="heading"></p>
-						<p class="title"></p>
+						<p class="title"><%= entries.pluck(:carbohydrates).sum %</p>
 					</div>
 				</div>
 
 				<div class="level-item has-text-centered">
 					<div>
 						<p class="heading"></p>
-						<p class="title"></p>
+						<p class="title"><%= entries.pluck(:fats).sum %</p>
 					</div>
 				</div>
 			</nav>	
